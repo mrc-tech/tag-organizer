@@ -1,7 +1,7 @@
 # tag-organizer
 Organize data using tagging system
 
-Programma che vorrei usare per catalogare i libri e gli articoli che leggo
+_Programma che vorrei usare per catalogare i libri e gli articoli che leggo_
 
 # ToDo
 
