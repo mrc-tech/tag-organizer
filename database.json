@@ -1,9 +1,32 @@
-header: {
-	"autori",
-	"titolo",
-	"casa_ed",
-	"anno"
-}
-data: { ...array of structured data... }
+{
+"header": {
+	"autori":  "autori del libro separati da virgola (string)",
+	"titolo":  "titolo con trattino per separare i sottotitoli (string)",
+	"casa_ed": "casa editrice (string)",
+	"anno":    "anno di pubblicazione (int)",
+	"voto":    "voto al documento da 0 a 5 (int)",
+	"tag":     "arrai di stringhe con i vari tag",
+	"note":    "note/appunti (string)"
+},
 
-... in ogni dato ci sono anche "voto" che da un voto da 0 a 5 al documento e un array di stringe "tag" ...
+"data": [
+{
+	"autori": "Pollo, Polletto",
+	"titolo": "come scrivere un programma di catalogazione tramite voto e tag",
+	"casa_ed": "Marchi Technology",
+	"anno": 2023,
+	"voto": 4,
+	"tag": ["comp", "C++", "data"],
+	"note": ""
+},
+{
+	"autori": "Pollo, Polletto",
+	"titolo": "HISTORIAE",
+	"casa_ed": "DDMT",
+	"anno": 2023,
+	"voto": 5,
+	"tag": ["historiae"],
+	"note": "l'ultima versione stampata e` quella per il nostro 30esimo compleanno"
+}
+]
+}
