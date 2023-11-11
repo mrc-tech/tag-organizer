@@ -1,0 +1,9 @@
+header: {
+	"autori",
+	"titolo",
+	"casa_ed",
+	"anno"
+}
+data: { ...array of structured data... }
+
+... in ogni dato ci sono anche "voto" che da un voto da 0 a 5 al documento e un array di stringe "tag" ...

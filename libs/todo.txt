@@ -1,0 +1,2 @@
+librerie per leggere e scrivere JSON e per usare i regex
+(per i regex posso anche usare le librerie standard C++ se disponibili)
